@@ -1,0 +1,916 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Tom Harman is a Product Designer based in NYC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="i/favicon.ico" />
+  <link href="http://fnt.webink.com/wfs/webink.css?project=4298B417-8F0A-4B64-9715-8C53CA940BE2&fonts=BFE4A44E-8D1D-66D8-BBF8-42F52771F0D3:f=Theinhardt-ThinIta,8B459781-89CC-B7EA-6A87-7EC561303F45:f=Theinhardt-BoldIta,602BD939-0B36-207C-56E5-E3E6434C3273:f=Theinhardt-HairlineIta,864889ED-8E73-7E19-00E2-BBE0F997E58C:f=Theinhardt-Thin,008579D7-00D8-1E34-1306-843EC6BC82EA:f=Theinhardt-Light,DC84A178-A66C-DB8D-5140-7E5BF64AB28F:f=Theinhardt-RegularIta,F77BBDE3-5270-5846-90AD-5529C2FFDA57:f=Theinhardt-Medium,F1909AAE-4087-F011-EEAD-AB047C3C6A43:f=Theinhardt-Hairline,A7E06AF3-FA3A-4B28-764F-AC325B3529DA:f=Theinhardt-Heavy,0684BC34-8E92-BE61-25F1-D15CB377C180:f=Theinhardt-UltraLightIta,82DA4627-8191-9CE4-706C-58F3C2615A95:f=Theinhardt-Bold,70F8A7D9-BDFF-D029-E465-E7FC928A5994:f=Theinhardt-MediumIta,2A04CF10-789B-A5BB-9721-E19ACED96EEB:f=Theinhardt-Black,2272E54A-6BEF-79F6-B479-9FB26CE41DD7:f=Theinhardt-BlackIta,9773ABFB-EF93-0C1B-AE14-35A7DD420754:f=Theinhardt-UltraLight,5F278FF9-E581-1824-0F92-F6D72B137A6A:f=Theinhardt-HeavyIta,BF522E13-B921-2C59-5FD3-9D3C689FC32B:f=Theinhardt-LightIta,BA766C3D-9F83-4950-AFCD-AD9F2BF5CEAB:f=Theinhardt-Regular" rel="stylesheet" type="text/css"/>
+  
+  <meta name="description" content="The portfolio of Tom Harman, a designer of digital products based in NYC" />
+  
+  <style type="text/css">
+  /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+    html {
+      font-family: sans-serif;
+      font-size: 100%; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */
+      -ms-text-size-adjust: 100%; /* 2 */
+    }
+    
+    body {
+      background: #fff;
+      font-family: "Helvetica", sans-serif;
+      line-height: 1.4;
+      text-align: center;
+      padding: 0 0 3em 0;
+      font-size: 1.4em;
+    }
+    
+    body, a {
+      color: #333;
+    }
+    
+    a {
+      text-decoration: none;
+      border-bottom: 1px dotted #FFF200;
+      -o-transition:.1s;
+      -ms-transition:.1s;
+      -moz-transition:.1s;
+      -webkit-transition:.1s;
+      /* ...and now for the proper property */
+      transition:.2s;
+    }
+
+    a:hover {
+      color: #000;
+      border-bottom: 1px solid #000;  
+    }
+    
+    /* HEADER */
+    
+    header {
+      width: 1200px;
+      margin: auto;
+      padding: 0 0 1.5em 0;
+      overflow: auto;
+      text-align: left;
+      color: #333;
+    }
+    
+    header h1, header p { 
+      float: left;
+      padding-top: 50px;
+    }
+    
+    header h1 {
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+      width: 630px;
+      padding-left: 200px;
+    }
+    
+    header p {
+      margin-top: 1px;
+      font-weight: normal;
+    }
+    
+    /* SOCIAL MEDIA BUTTONS */
+    
+    
+    ul.social {
+      position: absolute;
+      margin-top: 46px;
+    }
+    
+    ul.social li {
+      float: left;
+      margin-right: 5px;
+    }
+    
+    ul.social li a {
+      display: block;
+      background-color: #FFF200;
+      background-position: 50% 50%;
+      background-size: 100%;
+      border: 0;
+      text-indent: -999em;
+      height: 35px;
+      width: 35px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+    }
+    
+    ul.social li a:hover {
+      background-color: #333;
+    }
+    
+    ul.social li.twitter-link a {
+      background-image: url('i/twitter-logo.svg');
+      background-size: 90%;
+    }
+    
+    ul.social li.tumblr-link a {
+      background-image: url('i/tumblr-logo.svg');
+    }
+    
+    ul.social li.instagram-link a {
+      background-image: url('i/instagram-logo.svg');
+    }
+
+    /* FOOTER */
+    
+    footer section#contact {
+      overflow: auto;
+      width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      padding-top: 3em;
+    }
+    
+    footer section#contact h3, footer section#contact p {
+      float: left;
+    }
+    
+    /* INTRO SUMMARY */
+    
+    section#intro-summary {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    
+    section#intro-summary ul {
+      margin-bottom: 2.5em;
+    }
+    
+    section#intro-summary h2 {
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+      font-size: 64px;
+      display: block;
+      width: 800px;
+      line-height: 1.25;
+      padding: .75em 0 1.5em 0;
+    }
+    
+    section#intro-summary div.content {
+      width: 1000px;
+    }
+    
+    span, li.active a {
+      background: #FFF200;
+    }
+    
+    p.instructions, p.instructions a {
+      color: #ddd;
+    }
+    
+    p.instructions a {
+      border-bottom-color: #ddd;
+    }
+    
+    p.instructions a:hover {
+      color: #aaa;
+      border-bottom-color: #aaa;
+    }
+    
+    /* MAIN CONTENT STYLING */
+    
+    div.content {
+      margin-left: 200px;
+      padding: 0 0 2em 0;
+      width: 600px;
+      text-align: left;
+    }
+    
+    div.content h2 {
+      padding: 2.5em 0 1.5em;
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+    }
+
+    div.content h3 {
+      margin: 1em 0;
+      font-family: "Helvetica", sans-serif;
+      font-weight: lighter;
+      font-size: 2em;
+    }
+    
+    div.content h4, section.project-summary h3 {
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+    }
+    
+    div.content h5 {
+      text-decoration: underline;
+    }
+
+    div.content ul {
+      list-style: circle;
+    }
+    
+    div.content ol {
+      list-style: decimal;
+    } 
+    
+    div.content p, div.content h4, div.content h5 {
+      margin: 1em 0;
+    }
+    
+    div.content em {
+      font-style: italic;
+    }
+    
+    div.content p.summary {
+      font-family: "Helvetica", sans-serif;
+      font-weight: lighter;
+      font-size: 2.3em;
+      line-height: 1.2;
+      width: 800px;
+      margin: 0;
+      padding-bottom: 1.25em;
+    }
+    
+    /* IMAGES & CAPTIONS */
+    
+    div.content img {
+      margin-left: -200px;
+      position: absolute;
+      width: 800px;
+    }
+    
+    div.content div.caption p {
+      margin: 0;
+    }
+    
+    div.caption {
+      background: #333;
+      width: 1000px;
+      overflow: auto;
+      margin: 0 0 2em 0;
+      padding: 0;
+    }
+    
+    div.caption img {
+      float: left;
+      height: 450px;
+    }
+    
+    div.caption aside {
+      width: 340px;
+      height: 420px;
+      margin: 0 0 0 630px;
+      display: block;
+      padding: 15px 30px 15px 0;
+    }
+    
+    div.caption aside, div.caption aside a {
+      color: #fff;
+    }
+    
+    div.content div.caption h3 {
+      margin: 1em 0 0 0;
+      font-size: 1em;
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+    }
+    
+    div.content div.caption-minimal {
+      width: 1000px;
+      position: relative;
+      overflow: auto;
+      margin-bottom: 1em;
+    }
+    
+    div.content div.caption-minimal img, div.content div.caption-minimal aside  {
+      float: left;
+    }
+    
+    div.content div.caption-minimal aside {
+      margin: 15px 0 0 12px;
+      font-size: .8em;
+      color: #aaa;
+      font-style: italic;
+    }
+    
+    div.content div.caption-minimal aside span {
+      background: none;
+      font-size: .7em;
+    }
+    
+    /* IMAGE GALLERY */
+    
+    div#gallery {
+    	background: #333;
+      padding: 1em 0 0 0;
+      overflow: auto;
+      width: 1200px;
+      margin-left: -200px;
+    }
+      
+    div#gallery ul {
+      list-style: none;
+    }
+    
+    div#gallery li {
+      float: left;
+      width: 400px;
+    }
+    
+    div#gallery img {
+      position: relative;
+      width: 400px;
+      margin-left: 0;
+      padding: 0;
+      display: block;
+    }
+    
+    /* GALLERY: TWO IMAGES */
+    
+    div#gallery.two-images {
+      background: transparent;
+      width: 1000px;
+      padding-left: 200px;
+      padding-top: 5px;
+      margin-top: -5px;
+    }
+    
+    div#gallery.two-images li {
+      width: 405px;
+    }
+    
+    div#gallery.two-images img, div.content img.four-col-image {
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
+  	  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .1);
+	  }
+    
+    div#gallery.two-images img {
+      width: 395px;
+      margin-bottom: 10px;
+    }
+    
+    div.content img.four-col-image {
+      width: 800px;
+      position: relative;
+      margin: 0 0 0 0;
+      display: block;
+      overflow: auto;
+    }
+    
+    /* PROJECTS & BG COLORS */
+    
+    section#container {
+      width: 100%;
+      min-width: 1240px;
+      margin: 0 auto;
+    }
+    
+    section.project-wrapper {
+      overflow: auto;
+      width: 100%;
+    }
+    
+    section.project-interior {
+      overflow: auto;
+      background:#fff;
+      width: 1200px;
+      margin-bottom: 2em;
+      margin: 3.5em auto;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+    
+    .no-longer-live {
+      color: #555;
+    }
+    
+    div.content img.inline-image {
+      margin: 0;
+      width: 600px;
+      position: relative;
+    }
+    
+    /* PROJECT COLORS */
+    
+    section#project-coastermatic                                 { background-color: rgba(227, 3, 140, 1); }
+    section#project-coastermatic a                               { border-color: rgba(227, 3, 140, 1); }
+    section#project-coastermatic section.project-summary a span  { color: rgba(227, 3, 140, 1); } 
+    
+    section#project-paceclub                                     { background-color: rgba(128, 29, 127, 1); }
+    section#project-paceclub a                                   { border-color: rgba(128, 29, 127, 1); }
+    section#project-paceclub section.project-summary a span      { color: rgba(128, 29, 127, 1); }
+    
+    section#project-itsmytime                                    { background-color: rgba(0, 175, 100, 1); }
+    section#project-itsmytime a                                  { border-color: rgba(0, 175, 100, 1); }
+    section#project-itsmytime section.project-summary a span     { color: rgba(0, 175, 100, 1); }
+
+    section#project-figuros                                      { background-color: rgba(242, 100, 34, 1); }
+    section#project-figuros a                                    { border-color: rgba(242, 100, 34, 1); }
+    section#project-figuros section.project-summary a span       { color: rgba(242, 100, 34, 1); }
+
+    section#project-purpose                                      { background-color: rgba(255, 221, 0, 1); }
+    section#project-purpose a                                    { border-color: rgba(255, 221, 0, 1); }
+    section#project-purpose section.project-summary a span       { color: rgba(255, 221, 0, 1); }
+    
+    section#project-baseball                                     { background-color: rgba(76, 163, 224, 1); }
+    section#project-baseball a                                   { border-color: rgba(76, 163, 224, 1); }
+    section#project-baseball section.project-summary a span      { color: rgba(76, 163, 224, 1); }
+    
+    section#project-itsmytime div#gallery.two-images img {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    
+    section#project-itsmytime div#gallery.two-images {
+      width: 800px;
+    }
+    
+    section#project-itsmytime div#gallery.two-images li {
+      padding-left: 0;
+      width: 200px;
+    }
+    
+    section#project-itsmytime div#gallery.two-images img {
+      width: 190px;
+    }
+    
+    /* PROJECT NAV */
+    section.project-summary a {
+      display: block;
+      color: #fff;
+      padding: 2em 0 3.5em;
+      border: 0;
+    }
+    
+    section.project-summary a div {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    
+    section.project-summary h3,
+    section.project-summary p {
+      width: 800px;
+      text-align: left;
+      margin: 0 auto;
+    }
+    
+    section.project-summary p.role {
+      display: inline-block;
+      width: auto;
+      float: left;
+      margin-left: 162px;
+      border-top: 3px solid rgba(255,255,255,1);
+      margin-top: 5px;
+      padding-top: 5px;
+      text-align: left;
+    }
+    
+    section.project-summary span, a.minimize {
+      background: #fff;
+      color: #fff;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      border: 3px solid #fff;
+      font-size: 1.25em;
+      float: left;
+      margin-top: 26px;
+      width: 32px;
+      height: 32px;
+      line-height: 1.15;
+      display: block;
+    }
+    
+    section.project-wrapper section.project-summary a:hover span {
+      background: none;
+      color: #fff !important;
+      border: 3px solid #fff;
+    }
+    
+    section.project-summary a:hover {
+      background-color: rgba(0,0,0,.1);
+    }
+
+    a.minimize {
+      float: right;
+      color: #ddd;
+      border-color: #ddd !important;
+      margin: 52px 52px 0 0;
+      -webkit-transform: rotate(-45deg); 
+      -moz-transform: rotate(-45deg);
+    }
+    
+    a:hover.minimize {
+      background: #ddd !important;
+      color: #fff !important;
+    }
+    
+    /* MAKE LOOK REASONABLE ON SMALLER SCREENS: DO THIS PROPERLY ONCE LIVE */
+    
+    @media only screen and (max-width : 1240px)  {
+    }
+    
+  </style>
+  <script src="jquery-1.10.2.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.project-interior').hide();
+      
+      // Maximize project details
+      $('section.project-summary').on('click', 'a', function (event) {
+          event.preventDefault();
+          $(this).parent('section.project-summary').hide();
+          $(this).parent('section.project-summary').siblings().fadeIn('slow', function() {});
+      });
+      
+      // Minimize project details
+      $('a.minimize').on('click', '', function (event) {
+          event.preventDefault();
+          $(this).parent('.project-interior').hide();
+          $(this).parent('.project-interior').siblings().fadeIn('slow', function() {});
+      });
+
+    });
+  </script>
+  
+</head>
+<body>
+  <section id="container">
+    <header>
+      <h1>Tom Harman</h1>
+      <p><a href="mailto:hello@harmantom.com">hello@harmantom.com</a></p>
+      <ul class="social">
+        <li class="twitter-link"><a href="http://twitter.com/tomharman">Twitter</a></li>
+        <li class="instagram-link"><a href="http://instagram.com/tomharman">Instagram</a></li>
+        <li class="tumblr-link"><a href="http://blog.harmantom.com">Tumblr</a></li>
+      </ul>
+    </header>
+
+    <section id="intro-summary">
+      <div class="content">
+        <h2>I design digital products<br /> for the physical world.</h2>
+        <ul>
+          <li>Clients include Google Maps, NY Times, Speedo, Benetton, BBC, Behance &amp; Boxee.</li>
+          <li>10 years in UX, Strategy, UI Design, &amp; Prototyping across agencies &amp; startups.</li>
+          <li>Former Co-Founder at <a href="http://coastermatic.com/">Coastermatic</a> &amp; Design Director at <a href="http://mintdigital.com/">Mint Digital</a>.</li>
+          <li>British designer based in NYC. <a href="http://interactiondesign.sva.edu">SVA MFA Interaction Design</a> Alum.</li>
+          <li><span>May 2015: Currently considering new opportunities, <a href="https://www.linkedin.com/in/tomharman">let's chat</a>.</span></li>
+        </ul>
+        <h4>Six selected projects below, from 2005&ndash;2013. Recent projects on request.</h4>
+      </div>
+    </section>
+    
+    <!-- PROJECTS -->
+
+    <!-- COASTERMATIC -->
+    <section class="project-wrapper" id="project-coastermatic">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>Coastermatic</h3>
+            <p>A manufacturing service turning your Instagrams into stone coasters.</p>
+            <p class="role">Co-Founder / Creative Director</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>Coastermatic</h2>
+          <p class="summary">A web/manufacturing service that turns your Instagram photos into stone coasters.</p>
+          <div class="caption">
+            <img src="projects/coastermatic/coastermatic-00-thumbnail-450.jpg" />
+            <aside>
+              <h3>Role</h3>
+              <p id="role" class="role">I performed including Product Strategy, Visual Identity, UX, UI Design, Film Making, Photography, Coding, Marketing and Business Development in collaboration with my <a href="http://tashwong.com">co-founder</a>. My primary responsibility revolved around visually focused tasks.</p>
+              <h3>Links</h3>
+              <p><a href="http://coastermatic.com">coastermatic.com</a></p>
+            </aside>
+          </div>
+          <p>The project began as an MFA collaboration with <a href="http://tashwong.com">Tash Wong</a> as an experiment in Customer Acquisition and Minimum Viable Product. Early success validated our assumptions, allowing us to continue growing the company alongside our MFA commitments. Upon graduation we both focused full-time on product growth.</p>
+          <p>I think there’s a lot of exciting possibilities around making technology more human in the home and Coastermatic represents an exploration of this landscape in the form of a mass-consumer product.</p>
+          <h3>Deliverables</h3>
+          <img src="projects/coastermatic/ui-homepage-short.jpg" class="four-col-image" style="margin-bottom: 10px" />
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/coastermatic/ui-02-selection.jpg" /></li><li><img src="projects/coastermatic/ui-03-selection.jpg" /></li><li><img src="projects/coastermatic/ui-04-selection.jpg" /></li><li><img src="projects/coastermatic/ui-05-cart.jpg" /></li></ul></div>
+          <iframe src="//player.vimeo.com/video/42573876?title=0&amp;byline=0&amp;portrait=0&amp;color=00aeef" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </section>
+    </section>
+    
+    <!-- PACE CLUB -->
+    <section class="project-wrapper" id="project-paceclub">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>Pace Club</h3>
+            <p>Speedo USA's swim community &amp; training platform, for iPhone &amp; web.</p>
+            <p class="role">UX Lead</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>Pace Club</h2>
+          <p class="summary">Speedo USA's swim community &amp; training platform, for iPhone &amp; web.</p>
+          <div class="caption">
+            <img src="projects/paceclub/paceclub-01-450.jpg" alt="Screenshot of Pace Club iPhone app and website" />
+            <aside>
+              <h3>Role</h3>
+              <p id="role" class="role">I lead the UX strategy and design across iPhone and web.</p>
+              <h3>Team</h3>
+              <p>The project was completed in collaboration with <a href="http://syrupnyc.com/">Syrup NYC</a> while working as Design Director at <a href="http://mintdigital.com/">Mint Digital</a>.</p>
+              <h3>Links</h3>
+              <p><a href="http://paceclub.speedousa.com/">paceclub.speedousa.com</a></p>
+            </aside>
+          </div>
+          <p>Speedo’s ambition was simple: to encourage more people to get in the pool, by making swimming more fun. Initial conversations revolved around the problem of capturing swim data, without investing up-front in a dedicated device required to do so. After research across a range of swim personas we decided to focus on the competitive and social aspects of the product. This allowed Speedo to launch early and iterate rapidly, cultivating a strong community of early adopters. Insights gleamed from these real interactions could then be folded into refining and adding features as the product developed.</p>      
+          <p>The challenge component converts personal swimming goals into social objects, allowing friendly competition between acquaintances. You might be racing someone who trains in the same pool as you, or a close-friend who lives overseas. This social accountability piece proved incredibly powerful at motivating users to return to the pool. A side effect of this was the encouragement to manually capture swim data, providing Speedo with valuable insights for developing their potential physical swim tracker of the future.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- IT'S MY TIME -->
+    <section class="project-wrapper" id="project-itsmytime">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>It's My Time</h3>
+            <p>Benetton's global casting contest.</p>
+            <p class="role">UX Lead</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>It's My Time</h2>
+          <p class="summary">Benetton's global casting contest.</p>
+          <div class="caption">
+            <img src="projects/itsmytime/itsmytime-00-thumbnail-450.jpg" />
+            <aside>
+              <h3>Role</h3>
+              <p id="role" class="role">I lead the UX strategy and design of the platform.</p>
+              <h3>Team</h3>
+              <p>This project was completed in collaboration with <a href="http://fabrica.it">Fabrica</a> while working as Design Director at <a href="http://mintdigital.com/">Mint Digital</a>.</p>
+              <h3 class="no-longer-live">Website no longer live.</h3>
+            </aside>
+          </div>    
+          <p>The project was an international phenomenon with 65,000 entrants, uploading over 500,000 photos in 36 days. The site delivered 56 million page views.</p>
+          <iframe src="//player.vimeo.com/video/11865485?title=0&amp;byline=0&amp;portrait=0&amp;color=00aeef" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+         <h3>Deliverables</h3>
+         <p>Early in the process my role focused on developing strategies toward cultivating community engagement. This involved encouraging creativity and positive interaction between users while still meeting Benetton's competition criteria. As the project progressed and strategies were chosen, the bulk of my role turned to one of fleshing out the user experience through wireframes and communicating these decisions across engineering and visual design teams.</p>
+         <img class="inline-image" src="projects/itsmytime/imt-01-home.jpg" />
+         <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/itsmytime/imt-02-home.jpg" /></li><li><img src="projects/itsmytime/imt-03-enter-flow_4.jpg" /></li><li><img src="projects/itsmytime/imt-04-enter-flow_5.jpg" /></li><li><img src="projects/itsmytime/imt-05-enter-flow_6.jpg" /></li><li><img src="projects/itsmytime/imt-06-enter-flow.jpg" /></li><li><img src="projects/itsmytime/imt-07-enter-flow.jpg" /></li><li><img src="projects/itsmytime/imt-08-enter-flow.jpg" /></li><li><img src="projects/itsmytime/imt-09-enter-flow.jpg" /></li><li><img src="projects/itsmytime/imt-10-browse.jpg" /></li><li><img src="projects/itsmytime/imt-11-profile.jpg" /></li><li><img src="projects/itsmytime/imt-12-profile.jpg" /></li></ul></div>
+         <h3>Process</h3>
+         <p><em>The following is taken from a <a href="http://mintdigital.com/blog/its-ux-time">blog post</a> I wrote in Mar 2010:</em></p>
+         <p>Following the recent launch of IT'S MY TIME for Benetton, I wanted to give a little insight into our UX process with snippets from our approach and how we've tried to apply this thinking to IT'S MY TIME. I'll start with the obvious...</p>
+         <p>There are two very distinct phases to UX design:</p>
+         <img class="inline-image" src="projects/itsmytime/process-20100309-gjyss1mdqe7dfn1cp8f7ysd7ru.jpg" alt="Pre-launch launch and post-launch infographic" />
+         <h5>Pre-launch: Prediction</h5>
+         <p>Entirely based on lessons learnt from previous projects, assumptions on traffic, types of user behavior we're looking to encourage and the type of community we're looking to harbour. User testing plays a crucial role in getting early feedback, but it's impossible to tell exactly what problems may arise or what features are lacking until the site is out in the wild. Crucial structural decisions, such as how users will interact with each other, or editorial content, are made at this stage.</p>
+         <h5>Post-launch: Evolution</h5>
+         <p>The site goes live and 50 people sign up. The next minute there are 5,000 and you're designing by the seat of your pants, patching up holes as design flaws appear or a clear need for features become apparent. Quick uptake is a great problem to have but can also have technical implications which require further UX consideration. The beauty of designing for the web is the ability to make small changes and tweaks to perfect the user experience. However, there is no going back on big structural decisions, so we have to hope we nailed them before going live. Due to the short length of the project - only 5 weeks - we steered toward a more prediction-heavy design approach. Here's an overview of what we were hoping to achieve and how that turned out in reality.</p>
+         <h4>Pre-launch: Applying a metaphor</h4>
+         <div class="caption">
+            <img src="projects/itsmytime/process-imt-catalog.jpg" />
+            <aside><p>Photo by <a href="http://www.flickr.com/photos/8628950@N06/2767762016/">cod_gabriel</a></p></aside>
+         </div>
+         <p>As with any design approach, having a theme or a vision you're working towards helps the smaller details fall into place. From the start, we wanted to incorporate the clock concept but forcing users to upload specific "time themed" content felt like it raised the barrier to entry too high and reduced flexibility too much. So, we needed a more versatile metaphor to align the user experience with. The whole campaign is aimed at re-visioning how Benetton casts its models, so, we decided to use the catalogue as the core element to base user interactions on. We wanted users to create their own pages of what could collectively turn out to be a user-generated catalog. Inspired by sites such as <a href="http://muxtape.com">muxtape.com</a> and <a href="http://lookbook.nu">lookbook.nu</a>, we set about tackling the core problem of allowing exciting personalities to shine through, rather than the site being just a photo collection of <em>beautiful people</em>.</p>
+         <h5>1. Encourage Participation</h5>
+         <p>We wanted to give users value for just using the site, rather than relying on social interactions to make it compelling. The vision was to create a physical, printed catalogue made up by the pages (or profiles) of the shortlisted users. We hoped this would provide incentive to create captivating pages rather than simply uploading nice photographs. We hoped the element of tangibility would add depth and imagination to user motivation.</p>
+         <h5>2. Encourage Creativity</h5>
+         <p>Creativity is at the heart of what Benetton were looking for in their models. The catalogue page metaphor fitted perfectly here, providing a blank canvas for more motivated users to take advantage of. They could upload photos of videos of various elements of their lives and personality to create a page that really shines. At the same time, we weren't excluding the <em>beautiful but boring</em>, who simply want to upload their modelling shots and not return to the site until the finalists are announced.</p>
+         <h5>3. Allow for Flexibility</h5>
+         <p>The design and build schedule was very tight and the competition structure fairly loose, so we needed to make progress but still have enough room to maneuver if there were legal issues or problems that arose from user testing. This was particularly important when competition rules kept fluctuating betwen <em>Users must upload 4 photos and a video</em> to <em>Users can upload as much or as little as they want and shouldn't be limited</em>.</p>
+         <h4>At launch</h4>
+         <p>After refinement and user testing, we felt we had a strong solution so we started applying visual design. The structure was flexible enough to incorporate last minute user testing feedback, such as going from 3 votes to 20 votes and only requiring users upload 1 image or video. Here's how the design of the profile page developed from a wireframe and an example of how we were hoping users would get creative with their profile:</p>
+         <img class="inline-image" src="projects/itsmytime/process-20100309-tfmtd75t3y7ycux86rxatpr8fg.jpg" alt="IT'S MY TIME Profile Wireframe" />
+         <img class="inline-image" src="projects/itsmytime/process-20100309-jntjiamunh3u8fkknue3q15kd1.jpg" alt="Possible example of an IT'S MY TIME profile" />
+         <p>The site received tremendous traffic. We saw over a million comments between users in the first week alone. The homepage was designed to highlight those who had recently signed up, cultivating a lovely welcoming interaction where existing users would <em>meet and greet</em> new users. Unfortunately, the early success of the site lead to a couple of UX problems:</p>
+         <h5>Capacity issues</h5>
+         <p>The sheer volume of users uploading photos meant our servers couldn't keep up. Thanks to some excellent quick thinking by the tech team, we rapidly increased capacity, but we also required a bunch of new UI assets for 'processing' avatars and to encourage users to upload smaller files along with other small tweaks to the core user flows.</p>
+         <h5>Comment spam</h5>
+         <p>After about day 3, users started to realise how to play the game and the notion of <em>vote for vote</em> began. This is when a user posts a comment saying "Vote for me and I'll vote you back", which is OK once in a while, but new users would get a barrage of 20-40 comments within half an hour of signing up. Users would copy and paste this to all profiles they could find in order to obtain the all-powerful votes. Although we didn't make any changes to the design, we limited users to one comment every 60 seconds and encouraged the editorial team to make a big effort to highlight users who were playing the game fairly.</p>
+         <h4>Conclusion</h4>
+         <p>Despite a few minor setbacks, <em>IT'S MY TIME</em> has been a great success. The catalogue concept mapped very neatly onto an online environment. The interactions and relationships between users have been fascinating to watch as they evolved. My favorite thing about this project has been seeing how many people got creative with the profile format. In a tribute to their resourcefulness I'll leave you with these 3 masterpieces.</p>
+         <div class="caption-minimal">
+            <img class="inline-image" src="projects/itsmytime/process-20100309-n3k4e37de9y142n6sbi19iuxbq.jpg" alt="Hanu's profile on IT'S MY TIME" />
+            <aside><span>&#9664;</span> Hanu's profile on IT'S MY TIME</aside>
+         </div>
+         <div class="caption-minimal">
+            <img class="inline-image" src="projects/itsmytime/process-20100309-kt5req5ibyqnm99umub7b5m737.jpg" alt="Bas's profile on IT'S MY TIME" />
+            <aside><span>&#9664;</span> Bas's profile on IT'S MY TIME</aside>
+         </div>       
+         <div class="caption-minimal">
+            <img class="inline-image" src="projects/itsmytime/process-20100309-gb6rb59jfjnsnwiak7d12teq4y.jpg" alt="Sarah the Unicorn's profile on IT'S MY TIME" />
+            <aside><span>&#9664;</span> Sarah the Unicorn's profile on IT'S MY TIME</aside>
+         </div>
+         <p>Special thanks to <a href="http://www.rockienolan.com/">Rockie Nolan</a> for allowing us to use her <a href="http://www.flickr.com/photos/fadedfilmstrips/">fantastic images</a> in our profile mockups.</p>
+         <h5>Further reading</h5>
+         <ul>
+           <li><a href="http://mintdigital.com/blog/imt-48hours">The first 48 hours of IT'S MY TIME</a></li>
+           <li><a href="http://mintdigital.com/blog/statistical-review">IT'S MY TIME: A Statistical Review</a></li>
+         </ul>
+        </div>
+      </section>
+    </section>
+    
+    <!-- FIGUROS -->
+    <section class="project-wrapper" id="project-figuros">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>Figuros</h3>
+            <p>The light of your life. When physical products come from personal data.</p>
+            <p class="role">Creator / Product Lead</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>Figuros</h2>
+          <p class="summary">The light of your life. When physical products come from personal data.</p>
+          <div class="caption">
+            <img src="projects/figuros/figuros-00-thumbnail-450.jpg" />
+            <aside>
+              <h3>Role</h3>
+              <p>I was responsible for everything including concept development, physical production, digital prototyping, photography, visual identity and copywriting.</p>
+              <h3>Team</h3>
+              <p>This individual project completed my <a href="http://interactiondesign.sva.edu">MFA thesis</a>.</p>
+              <h3>Links</h3>
+              <p><a href="http://figuros.com/">figuros.com</a></p>
+            </aside>
+          </div>
+          <p>For most of us, clutter is something we’d rather cut out. Just look at the way iPods wiped out CD racks and Kindles gave cobwebs to bookshelves. It’s these technologies that are building a slicker, more personal story for each and every one of us – making the physical objects we use every day more meaningful to our lives.</p>
+          <p>Figuros does just that. It was made to explore the way we consume possessions and make the ones we do, more meaningful. So don’t be surprised when your friends’ first response is, “it’s so you”.</p>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/figuros-00.jpg" /></li><li><img src="projects/figuros/figuros-01.jpg" /></li><li><img src="projects/figuros/figuros-02.jpg" /></li><li><img src="projects/figuros/figuros-03.jpg" /></li><li><img src="projects/figuros/figuros-04.jpg" /></li><li><img src="projects/figuros/figuros-05.jpg" /></li><li><img src="projects/figuros/figuros-06.jpg" /></li><li><img src="projects/figuros/figuros-07.jpg" /></li></ul></div>
+          <h3>Process</h3>
+          <h4>v1. Lampshade of Listening Habits</h4>          
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/lampshade-01.jpg" /></li><li><img src="projects/figuros/lampshade-03-detail.jpg" /></li><li><img src="projects/figuros/lampshade-04.jpg" /></li><li><img src="projects/figuros/lampshade-05-detail.jpg" /></li><li><img src="projects/figuros/lampshade-06-process.jpg" /></li><li><img src="projects/figuros/lastfm-500high.jpg" /></li></ul></div>
+          <p>As literature, music and film transition from physical objects to digital on-demand services, how might we consider translating the self-expression these objects represent back into our physical environments?</p>
+          <p>The lampshade incorporates laser-cut holes determined by personal listening habits, determined by <a href="http://last.fm/goswimchamp">last.fm</a> listening data throughout 2012. The idea being that the final form is unique to the individual who creates it. The top 50 artists make up each column, the height of which is determined by the relative number of listens.</p>
+          <h4>Paper Prototyping</h4>
+          <p>I carried out various explorations into possible lampshade forms. Key criteria involved the shape being reproducible using digital fabrication techniques as well as being adaptable based on specific user-determined criteria.</p>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/prototype-form-01.jpg" /></li><li><img src="projects/figuros/prototype-form-02.jpg" /></li><li><img src="projects/figuros/prototype-form-03.jpg" /></li><li><img src="projects/figuros/prototype-form-04.jpg" /></li><li><img src="projects/figuros/prototype-form-05.jpg" /></li><li><img src="projects/figuros/prototype-form-06.jpg" /></li></ul></div>
+          <p>After settling on a form and production technique (lasercutting), I explored various assembly methods to create a robust yet versatile object.</p>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/prototype-joints-01.jpg" /></li><li><img src="projects/figuros/prototype-joints-02.jpg" /></li><li><img src="projects/figuros/prototype-joints-03.jpg" /></li><li><img src="projects/figuros/prototype-joints-04.jpg" /></li><li><img src="projects/figuros/prototype-joints-05.jpg" /></li><li><img src="projects/figuros/prototype-joints-06.jpg" /></li><!-- <li><img src="projects/figuros/prototype-joints-07.jpg" /></li> --><li><img src="projects/figuros/prototype-joints-08.jpg" /></li><li><img src="projects/figuros/prototype-joints-09.jpg" /></li></ul></div>
+          <h4>v2. Alcohol &amp; Gchat</h4>
+          <p>Having wrapped up my physical production framework I set about exploring data-to-physical translations that would generate personal objects based on everyday interactions. I started by exploring self-tracked data sources, the first result was based on my personal alcohol consumption during February 2013:</p>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/redlamp-01.jpg" /></li><li><img src="projects/figuros/redlamp-02.jpg" /></li><li><img src="projects/figuros/redlamp-03.jpg" /></li><li><img src="projects/figuros/redlamp-04.jpg" /></li><li><img src="projects/figuros/redlamp-05.jpg" /></li><li><img src="projects/figuros/redlamp-06.jpg" /></li><li><img src="projects/figuros/redlamp-07.jpg" /></li><li><img src="projects/figuros/redlamp-08.jpg" /></li><!-- <li><img src="projects/figuros/redlamp-09.jpg" /></li> --></ul></div>
+          <p>After manually creating an algorithm to perform the translation of quantity-over-time onto an extruded radar plot I started writing code to perform the same functionality based on vaious APIs. This is my entire GChat history since 2005:</p>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/figuros/yellowlamp-01.jpg" /></li><li><img src="projects/figuros/yellowlamp-03.jpg" /></li><li><img src="projects/figuros/yellowlamp-02-short.jpg" /></li><li><img src="projects/figuros/yellowlamp-04.jpg" /></li><li><img src="projects/figuros/yellowlamp-05.jpg" /></li><li><img src="projects/figuros/yellowlamp-06.jpg" /></li><li><img src="projects/figuros/yellowlamp-07.jpg" /></li></ul></div>
+          <p>With this code in place the final challenge was to find meaningful insight into a data source that most people interact with on a daily basis. I settled on the distance between two people over time, based on geo-tagged Instagram images. I built a digital prototype which generates lasercut files based on this criteria, so people who see a lot of each other have a very different shape to those far away.</p>
+          <p>Feel free <a href="http://figuros.com/prototype/">play with the prototype</a> and make your own shapes.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- PURPOSE -->
+    <section class="project-wrapper" id="project-purpose">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>Purpose</h3>
+            <p>A platform enabling creative reuses for unwanted technology.</p>
+            <p class="role">UI Design / Video Production</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>Purpose</h2>
+          <p class="summary">A platform bringing together consumers, makers, and manufacturers to enable creative reuses for unwanted technology.</p>
+          <div class="caption">
+            <img src="projects/purpose/purpose-00-thumbnail-450.jpg" />
+            <aside>
+              <h3>Role</h3>
+              <p id="role" class="role">I was primarily responsible for interface design and video production.</p>
+              <h3>Team</h3>
+              <p>This project was a collaboration with <a href="http://tonyhschu.ca/">Tony Chu</a>, <a href="http://fancifuldevices.com/">Michael Yap</a> &amp; <a href="http://prachipundeer.com/">Prachi Pundeer</a>. </p>
+              <h3>Links</h3>
+              <p><a href="http://makewithpurpose.com">makewithpurpose.com</a></p>
+            </aside>
+          </div>
+          <p>Makers share creative reuse ideas to a broad community. In turn, the community helps realize maker-ideas: consumers donate technology otherwise bound for the global waste-stream and manufacturers fund packaging, shipping, and handling as an opportunity to practice corporate social responsibility.</p>
+          <p>The project was completed as part of <a href="http://good.parsons.edu/">GOOD Magazine’s design hackathon</a>, where we spent 24 hours thinking up and designing the concept. We’re fortunate to have won the <a href="http://www.good.is/post/a-creative-tech-reuse-project-wins-the-first-good-design-hackathon/">Best in Show award</a> for our efforts.</p>
+          <h3>Deliverables</h3>
+          <p>I was primarily responsible for creating the following:</p>
+          <iframe src="//player.vimeo.com/video/38080600?title=0&amp;byline=0&amp;portrait=0&amp;color=00aeef" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <div id="gallery" class="flexslider two-images"><ul class="slides"><li><img src="projects/purpose/ui-project.jpg" /></li><li><img src="projects/purpose/ui-donate.jpg" /></li></ul></div>
+          <h3>Process</h3>
+          <p>Due to the extreme time-constraint we spent our first hour brainstorming before quickly settling on a direction and set of deliverables that would suit our collective skillsets. The remainder of the process is best illustrated in the following video:</p>
+          <iframe src="//player.vimeo.com/video/38193325?title=0&amp;byline=0&amp;portrait=0&amp;color=00aeef" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </section>
+    </section>
+    
+    <!-- BASEBALL MATCHUP -->
+    <section class="project-wrapper" id="project-baseball">
+      <section class="project-summary">
+        <a href="#">
+          <div>
+            <span>+</span>
+            <h3>Baseball Matchup</h3>
+            <p>Making sense of the stats, live from your seat at the stadium.</p>
+            <p class="role">UI Design / UX Lead</p>
+          </div>
+        </a>
+      </section>
+      <section class="project-interior">
+        <a class="minimize" href="#">+</a>
+        <div class="content">
+          <h2>Baseball Matchup</h2>
+          <p class="summary">Making sense of the stats, live<br /> from your seat at the stadium.</p>
+          <div class="caption">
+            <img src="projects/baseball/baseball-00-thumbnail-450.jpg" />
+            <aside>
+              <h3>Role</h3>
+              <p id="role" class="role">I lead the UX strategy and UI design of the concept.</p>
+              <h3>Team</h3>
+              <p>This project was completed while working as Design Director at <a href="http://mintdigital.com/">Mint Digital</a>.</p>
+            </aside>
+          </div>
+          <p>Baseball Matchup leverages data from previous pitcher &amp; batter matchups to show the locations of hits, live on the field, using augmented reality. Gain insight into why the outfield changes position as the next player steps up. Notice gaps the fielders haven’t spotted. Understand why certain batters struggle against particular pitchers.</p>
+          <p>It's designed for any baseball fan attending an MLB game. Baseball Matchup will help novices learn what to expect while providing a deeper level of insight for the experienced fan.</p>
+          <p>Data visualization and analysis of baseball has been on our TV screens for decades. Baseball Matchup takes this to the next level, away from the sofa and direct to your seat in the stadium.</p>
+          <h3>Deliverables</h3>
+          <img src="projects/baseball/01a_6.jpg" class="inline-image" />
+          <img src="projects/baseball/011.jpg" class="inline-image" style="margin-top: -45px;" />
+          <img src="projects/baseball/021.jpg" class="inline-image" style="margin-top: -45px;" />
+          <img src="projects/baseball/031.jpg" class="inline-image" style="margin-top: -45px;" />
+          <img src="projects/baseball/041.jpg" class="inline-image" style="margin-top: -45px;" />
+          <img src="projects/baseball/051.jpg" class="inline-image" style="margin-top: -45px;" />
+          <h3>Process</h3>
+          <p><em>The following is taken from a <a href="http://mintdigital.com/blog/baseball-matchup">blog post</a> I wrote in Nov 2010:</em></p>
+          <p>Having lived in the US for about a year now, it felt about time I started learning a little about the fundamentals of American sport. A New York brainstorm topic, 'Enhancing sporting events through mobile', led <a href="http://twitter.com/#!/johnideal">Mr. Corrigan</a> to step up to the plate with an exciting germ of an idea named 'batting scope'. A promising concept and an excuse to learn the rules of baseball? How could I not develop this idea?!</p>
+          <h4>Sketches</h4>
+          <p>After a few initial pages of notes, I came to the realisation that creating a truly worthwhile experience would require a much deeper understanding of baseball fan culture; not just the rules. I quizzed <a href="http://twitter.com/#!/cameronp">Cameron</a> on and off for a week or so with questions about what stats in baseball are most compelling and why particular players or rivalries are significant. I learned some key things:</p>
+          <ol>
+            <li>The relationship between pitcher and batter at specific times during the game has a huge impact on the outcome of a pitch. (i.e. Whether the batter will even try to hit it)</li>
+            <li>There is no chance of getting a decent data connection at Yankee stadium.</li>
+            <li>There are more stats available in baseball than any other sport I've seen.</li>
+            <li>Some seats have much better visibility than others. How can the app cater to all?</li>
+            <li>The app will need a lot of setting up before it can be useful.</li>
+            <li>I've never used an Android phone before.</li>
+          </ol>
+          <p>Before doing anything else, I needed to borrow a Droid for the week, install every app I could find and live as much as possible with the device. There were a ton of insights I learned in terms of UI conventions but the most significant was deciding on the orientation people would need to hold their phone. Rendering the app horizontally was crucial for visualizing the stats but this meant extra attention to detail was necessary to make the interactions feel intuitive, when the handset would be held differently from how it is during the majority of daily tasks a user performs. Inspired by the camera app in landscape mode, my plan was to make all in-game interactions controllable with just the right hand thumb. (Lefties, I apologise.)</p>
+          <p>The video below shows some interface iterations drawn on the <a href="http://bit.ly/cdgPMd">Android wireframe sketchsheets</a> that <a href="http://twitter.com/#!/dresouzax">Andre</a> put together.</p>
+          <iframe src="//player.vimeo.com/video/16747944?title=0&amp;byline=0&amp;portrait=0&amp;color=00aeef" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h4>Aesthetics</h4>
+          <p>Making Baseball Matchup feel like a native Android app - and not an iPhone rip-off - was tricky, particularly given the volume of unconventional UI elements required in the screens explaining the concept. What made the most difference by far was the typography. Employing the Droid sans typeface instantly made the whole thing feel more consistent with the device.</p>
+          <p>The interface colour scheme was influenced by how the app would be used, mainly that it needed to avoid distracting or confusing users when held up over a large green playing field and crowds of people. I also wanted to avoid showing any allegiance to a particular team - though this could be a nice customisable element in the future - so going with the classic American red, white and blue felt like the natural choice. I quickly whipped up a logo with the intention of making the whole app feel obviously baseball and relevant to all ages and levels of fans.</p>
+          <h4>Niche / Awesome</h4>
+          <p>This app clearly has a pretty specific audience. A user needs to:</p>
+          <ul>
+            <li>Be a baseball fan.</li>
+            <li>Be at the game.</li>
+            <li>Own an Android phone.</li>
+            <li>Have arms that don't tire easily, or hold hot dogs too often.</li>
+          </ul>
+          <p>In addition, on the development side, you have all the issues regarding the cost of licensing data as well as the technical ambition of the project. A full scale launch would take some serious ironing out of these creases. But how awesome would it be if it existed?</p>
+          <p>Augmented Reality is currently seen as a bit of a gimmick. It's a powerful tool but often executed for the sake of technology, rather than adding real value to the environment you're in. We often talk about the 2Screen user experience and how we use technology to augment television. Taking the 2Screen thinking and applying it to a physical domain feels like the natural extension of this experience. I’m excited about the possibilities of a world that leverages the clarity of data visualization we know and love from watching sport on TV but without taking it away from the real fans who paid money to be watching it there, live at the game.</p>
+          <h5>Further Reading</h5>
+          <ul>
+            <li><a href="http://androidchallenge.mintdigital.com/">The Android Challenge @ Mint Digital</a></li>
+            <li><a href="http://mintdigital.com/blog/baseball-matchup">PSFK: Insights Captured Via Mobile App During Live Sport</a></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+ 
+    <footer>
+      <section id="contact">
+      <!--         <h3>You made it all the way down here? Bravo!</h3> -->
+        <p>Copyright &copy; 2005&ndash;2013 Tom Harman.</p>
+      </section>
+    </footer>   
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-496128-10']);
+      _gaq.push(['_setDomainName', 'harmantom.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  </section> <!-- close projects container -->
+
+</body>

@@ -1,0 +1,652 @@
+/* CSS Structure
+
+	- Reset
+	- Global
+	- Header
+	- Nav
+	- Footer
+	- Body
+	
+	Design, HTML & CSS: Tom Harman
+	January 15th, 2012
+	
+*/
+
+/* RESET http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GLOBAL */
+
+body, div.project_content header {
+	font-size: .9em;
+	font-family: Helvetica, sans-serif;
+}
+
+header, nav, aside, footer, figure, dt, div.portfolio-item, div.project_content p.project-role, div.project_content p.photo-credit {
+	font-family: Times, serif;
+}
+
+tt, code, kbd, samp {
+	font-family: monospace;
+}
+
+header, nav, aside, dt, div.portfolio-item h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+aside, dt {
+	letter-spacing: 1px;
+}
+
+header a, nav a, aside a {
+	text-decoration: none;
+}
+
+div#container {
+	border-top: 5px solid #000;
+	margin: 0 auto;
+	width: 950px;
+}
+
+
+div#content {
+	display:inline-block; /* clearfix hack */
+}
+
+a {
+	color: #00AEEF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, figcaption, ul, ol, img {
+	line-height: 1.5;
+	margin: 0 0 1.4em 0;
+}
+
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+dl {
+	border-left: 5px solid #eee;
+	padding-left: 15px;
+}
+
+dl dt {
+	color: #999;
+	margin: 1.5em 0 1em 0;
+}
+
+dl dd {
+	font-size: .85em;
+	line-height: 1.4;
+}
+
+embed, object {
+	width: 625px;
+}
+
+iframe {
+	padding-bottom: 1em;
+}
+
+/* HEADER */
+
+header {
+	padding: 7.2em 0 7.2em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header small {
+	text-transform: none;
+	font-size: .7em;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+header h2 {
+	border: 0;
+	font-size: 1.6em;
+	padding: 0;
+	letter-spacing: 6px;
+}
+
+header a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* NAV */
+
+nav a {
+	font-size: 1em;
+	padding: 0 0 0 .2em;
+}
+
+nav ul {
+	border-top: 1px dotted #ddd;
+	margin: .65em auto 0;
+	padding: .65em 0 0 0;
+	width: 300px;
+}
+
+nav ul li {
+	display: inline;
+	letter-spacing: 2px;
+	padding: 0 .3em;
+}
+
+nav ul li.selected a {
+	background: #FFF200;
+}
+
+/* Make sure all links turn blue*/
+header a:hover, nav ul li.selected a:hover, nav a:hover, div.portfolio-item a:hover h3 {
+	background: none;
+	color: #00AEEF;
+}
+
+/* FOOTER */
+
+footer {
+	clear: both;
+	position: relative;
+	border-top: 1px dotted #ddd;
+	font-size: .95em;
+	font-style: italic;
+	padding-top: 2em;
+	margin: 7em auto;
+	text-align: center;
+	width: 300px;
+}
+
+footer p {
+	color: #ccc;
+	margin: 0;
+}
+
+/* BODY */
+
+article {
+	margin: 0 0 10em 325px;
+	width: 625px;
+	font-size: .95em;
+}
+
+article h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding: .3em 0 .9em 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: Times;
+	font-weight: normal;
+	font-size: 1.05em;
+	color: #CCC;
+	letter-spacing: 2px;
+	border-top: 1px solid #EEE;
+	padding: 1.2em 0 .6em 0;
+}
+
+article h2 {
+	border-top: none;
+	color: #000;
+	font-size: 1.2em;
+	padding: 1.2em 0 1em 0;
+}
+
+article h3 {
+	font-weight: bold;
+	padding: 0 0 1em 0;
+}
+
+aside {
+	width: 300px;
+	margin-left: -325px;
+	position: absolute;
+}
+
+aside small {
+	font-size: .6em;
+}
+
+aside p a {
+	background: #000;
+	color: #fff;
+	display: block;
+	padding: .6em 0 0 15px;
+	height: 30px;
+}
+
+aside p a:hover {
+	background: #00AEEF;
+	color: #fff;
+	text-decoration: none;
+	cursor: hand;
+	z-index:99;
+}
+
+/* IMAGES + CAPTIONS */
+
+figcaption {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: inline;
+	font-style: italic;
+	position: absolute;
+	color: #333;
+	padding: 1em 0 1em 15px;
+	margin: 0 0 0 -325px;
+	width: 285px;
+}
+
+/* only if image is the first*/	
+figure.title-image figcaption {
+	border-top: 0;
+	margin-top: 38px;
+}
+
+figure.title-caption-no-image figcaption {
+	border-top: 0;
+	margin-top: -28px;
+}
+
+/* Used to show caption on the right handside, i.e. portfolio pages */
+figure.caption-right figcaption {
+	margin: 0 0 0 650px;
+}
+
+p.caption {
+	font-family: Times, serif;
+	font-style: italic;
+	position: relative;
+	top: -15px;
+	padding: 0;
+	color: #CCC;
+}
+
+p.caption a {
+	border-bottom: 1px dotted #ccc;
+	color: #ccc;
+}
+
+p.caption a:hover {
+	color: #bbb;
+	border-bottom: 1px solid #bbb;
+	text-decoration: none;
+}
+
+/* QUOTES (TITLE) */
+
+blockquote.title-quote {
+	border: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+blockquote.title-quote p {
+	font-family: Times;
+	font-style: italic;
+	font-size: 2.5em;
+	text-indent: -15px;
+	padding: 0 0 1.5em 15px;
+	line-height: 1.3;
+	margin: .5em 0;
+}
+
+blockquote.title-quote cite {
+	position: absolute;
+	margin: -3.5em 0 0 0;
+	padding: 0 0 0 3em;
+}
+
+img.series {
+	margin: 0;
+}
+
+/* QUOTES (NESTING CONVERSATION) */
+
+blockquote {
+	border-left: 5px solid #eee;
+	padding: 0 0 0 15px;
+}
+
+blockquote p {
+	margin: 1em 0;
+}
+
+/* CODE */
+
+pre {
+	background: #000;
+	color: #fff;
+	padding: 0 1em;
+	margin: 1em 0;
+}
+
+code {
+	line-height: 1.5;
+}
+
+/* PORTFOLIO INDEX */
+
+div.portfolio-item {
+	width: 300px;
+	margin: 0 25px 35px 0;
+	position: relative;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+div.portfolio-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+div.portfolio-item p {
+	color: #ccc;
+	font-style: italic;
+	font-size: .9em;
+}
+
+div.portfolio-item h3, div.portfolio-item p, div.portfolio-item img {
+	margin: 0;
+	padding: 0;
+}
+
+div.portfolio-item a h3 {
+	color: #000;
+	margin-top: 10px;
+	line-height: 1;
+}
+
+div.portfolio-item p.tags a {
+	color: #ccc;
+}
+
+/* PORTFOLIO SHOW */
+
+div.project_content {
+	display: inline-block;
+}
+
+div#images {
+	float: left;
+	width: 625px;
+}
+
+div#images img {
+	padding: 0;
+	margin: 0;
+}
+
+div#text {
+	float: right;
+	position: relative;
+	margin-left: 25px;
+	width: 300px;
+}
+
+/* MFA Portfolio styles */
+
+div.project_content header {
+	text-align: left;
+	padding: 0;
+	text-transform: none;
+	letter-spacing: .5px;
+}
+
+div.project_content header h1 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: 300;
+	padding: .8em 0;
+}
+
+/* a visual hack to hide the title on SVA portfolio entries */
+body.mfa div.project_content div#text h2 {
+	display: none;
+}
+
+div.project_content header p {
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+div.project_content iframe {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+div.project_content p.project-role,
+div.project_content p.photo-credit {
+	font-style: italic;
+	color: #999;
+}
+
+div.project_content p.project-role {
+	margin-top: 3.5em;
+}
+
+div.project_content p.photo-credit {
+	margin-top: 1em;
+}
+
+/* BIO */
+
+div#col1,
+div#col2,
+div#col3 {
+    float: left;
+    position: relative;
+    width: 300px;
+}
+
+div#col1,
+div#col2 {
+    margin-right: 25px;
+}
+
+div#col2 p {
+    margin-bottom: .8em;
+}
+
+/* TUMBLR */
+
+.tumblr footer {
+	margin-top: 0;
+}
+
+ol.notes {
+  padding: 0px;
+  margin: 0 0px 25px 0;
+  list-style-type: none;
+	border-bottom: 1px dotted #ddd;
+}
+
+ol.notes li.note {
+  border-top: 1px dotted #ddd;
+  padding: 10px;
+}
+
+ol.notes li.note a img.avatar {
+	float: left;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+}
+
+ol.notes li.note {
+	padding: 15px 0;
+}
+
+ol.notes li.note blockquote {
+	border: 0;
+  border-color: #eee;
+  padding: 0 5px;
+  margin: 5px 0 0 0;
+}
+
+ol.notes li.note blockquote a {
+  font-style: italic;
+	font-family: Times;
+	color: #000;
+}
+
+span.notecount {
+	text-align: right;
+	width: 55px;
+	display: block;
+	text-transform: none;
+	font-style: italic;
+	margin: -20px 0 0 215px;
+	color: #fff;
+	letter-spacing: 0;
+}
+
+/* Reblog */
+
+blockquote.reblog {
+	border: 0;
+	padding: 0;
+}
+
+blockquote.reblog figcaption {
+	border-top: 0;
+	padding: 0 0 0 15px;
+	margin-top: 38px;
+}
+
+figure.photo-series img {
+	margin: 0;
+}
+
+/* This is specific to the Twitter share button */
+iframe {
+	margin-bottom: 15px;
+}
+
+div#social-links {
+	margin-top: 75px;
+}
+
+/* GALLERY */
+
+ul.gallery {
+	line-height: .9;
+	text-align: center;
+}
+
+ul.gallery li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.gallery li img {
+	margin: 0;
+	padding: 0;
+	width: 950px;
+}
+
+/* PORTFOLIO BLOCK: Mainly used for PhysComp Labs */
+
+div.portfolio-block {
+	width:625px;
+}
+
+div.portfolio-block h3 {
+	font-weight: bold;
+	margin: 0 0 1.4em 0;
+}
+
+div.portfolio-block figure.caption-right,
+div.portfolio-block figure.caption-right p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* PHOTO PADDING */
+
+iframe.photoset {
+	margin-bottom: -275px;
+}
+
+/* TUMBLR PAGINATION */
+
+nav#pagination ul {
+	 padding: 1.5em 0 1.2em 0;
+}
+
+nav#pagination ul li, nav#pagination ul li a {
+	 padding: 0;
+}
+
+nav#pagination ul li:first-child {
+	 padding-right: 1em;
+}
